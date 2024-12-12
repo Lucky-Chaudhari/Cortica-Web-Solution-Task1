@@ -129,7 +129,7 @@ function App() {
             Annual Interest Rate (%):
           </label>
           <input
-            className="shadow appearance-none border border border-black  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none  border border-black  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             type="number"
             value={interestRate}
             onChange={(e) => setInterestRate(e.target.value)}
@@ -141,7 +141,7 @@ function App() {
             No Of Years:
           </label>
           <input
-            className="shadow appearance-none border border border-black  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none  border border-black  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             type="number"
             value={loanTerm}
             onChange={(e) => setLoanTerm(e.target.value)}
